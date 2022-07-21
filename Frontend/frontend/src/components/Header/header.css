@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+
+.head{
+    font-family: 'Edu QLD Beginner', cursive;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    /* border: 1px black; */
+    margin-top: 1rem;
+    
+      
+  }
+  

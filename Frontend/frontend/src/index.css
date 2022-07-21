@@ -1,13 +1,55 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Quicksand:wght@300;400&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'Quicksand', sans-serif;
+  background: var(--background-color);
+  color: var(--primary-text-color);
+  line-height: 1.5;
+  size: 100vh;
+}
+
+:root {
+  --background-color:#fff;
+  --white-color: #fff;
+  --primary-text-color:black;
+  --primary-outline-color:#DAE5D0;
+  --primary-shape-color: #F9EBC8;
+  --dark-shape-color: black;
+  --light-shape-text: white;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+/* linear-gradient(60deg, #29323c 0%, #485563 100%) */
+
+.btn{
+  width: max-content;
+  display: inline-block;
+  color:var(--primary-shape-color);
+  padding: 0.60rem 1.00rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--primary-outline-color);
+  
+}
+.btn:hover {
+  background: var(--dark-shape-color);
+  color: var(--light-shape-text);
+  border-color: transparent;
 }
