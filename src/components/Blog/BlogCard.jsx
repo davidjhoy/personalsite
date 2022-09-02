@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BlogCard = () => {
+const BlogCard = ({title}) => {
   return (
     <div>BlogCard</div>
   )
