@@ -1,0 +1,15 @@
+
+
+.blogwrapper {
+    display: grid
+
+}
+
+.blogBlock {
+    border: 1pt solid black;
+}
+
+.blogHeader {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
