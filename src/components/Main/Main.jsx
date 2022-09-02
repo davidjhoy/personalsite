@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div><h1>Hello there</h1></div>
+    <div><h1>Deployment Check</h1></div>
   )
 }
 
