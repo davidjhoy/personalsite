@@ -13,12 +13,12 @@
 
 .sidebar{
   justify-self: right;
-  
+  font-size: 16pt;
+  margin-left: 4rem;
+  margin-right: 2rem;  
 
 }
-.main{
-  
-}
+
 
 p{
   min-width: 10rem;

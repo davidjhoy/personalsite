@@ -3,11 +3,11 @@ import './blog.css'
 
 const Blog = () => {
 
-  // useEffect(()=>{
-  //   fetch("https://api.medium.com/v1/users/{{@davidjhoyjr}}/publications")
-  //   .then((response)=> response.json())
-  //   .then((data)=>{console.log(data)})
-  // },[])
+  useEffect(()=>{
+    fetch("https://api.medium.com/v1/users/{{davidjhoyjr}}/publications")
+    .then((response)=> response.json())
+    .then((data)=>{console.log(data)})
+  },[])
   return (
     <div className='blogwrapper'>
       
