@@ -32,7 +32,7 @@ function App() {
             <Link to="/"><p>main</p></Link>
             <Link to ="/projects"><p>projects</p></Link>
             <Link to = "/resume"><p>resume</p></Link>
-            <Link to="/blog"><p>blog</p></Link>
+            <Link to="/blog"><p>articles</p></Link>
             {/* <Link to="/photos"><p>photos</p></Link> */}
             <Link to="/contact"><p>contact</p></Link>
         </div>

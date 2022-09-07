@@ -12,7 +12,9 @@ function Resume() {
 
   return (
     <div className = "resumecontainer">
-      <img src = {resume} id = "resumeimage" />
+      <a href = {resume} download = "David Hoy Resume" target = "_blank">
+      <img src = {resume} id = "resumeimage" download/>
+      </a>
     </div>
   );
 }

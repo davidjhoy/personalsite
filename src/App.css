@@ -1,4 +1,7 @@
-
+Link{
+  text-decoration: none;
+  color: black;
+}
 
 
 .wrapper{
@@ -26,6 +29,7 @@ p{
   text-align: center;
   padding-right:3em;
   padding-left:3em;
+  color: black;
 
  
   

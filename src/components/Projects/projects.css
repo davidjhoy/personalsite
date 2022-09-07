@@ -28,7 +28,7 @@
 
 .ProjectImage{
     background-color: antiquewhite;
-    height: 70%;
+    height: 60%;
 }
 
 .ProjectTitle{
@@ -39,4 +39,5 @@
 .GithubButton{
     height: 15%;
     background-color: bisque;
+    margin-top: 10%;
 }
