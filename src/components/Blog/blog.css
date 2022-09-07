@@ -15,13 +15,13 @@
 .blogBlock {
     border: 1pt solid black;
     box-shadow: 4pt 2pt 0 black ;
-    height: 10%;
+    height: 20%;
     width: 90%;
     margin-left: 5%;
     overflow: hidden;
 }
 .blogBlock:active{
-    height: 11%;
+    height: 21%;
     width: 91%;
     box-shadow: 0 0 0 white;
 }
@@ -31,7 +31,7 @@
     background-color: rgb(255, 255, 167);
     font-size: 1.5rem;
     padding: 2%;
-    height: 80%;
+    height: 70%;
     border-bottom: 1pt solid black;
     overflow: hidden;
 }
