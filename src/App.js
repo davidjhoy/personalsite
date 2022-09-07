@@ -22,7 +22,6 @@ function App() {
             <Route path ="/projects" element = {<Projects/>} />
             <Route path ="/resume" element = {<Resume/>} />
             <Route path ="/blog" element = {<Blog/>} />
-            {/* <Route path ="/photos" element = {<Photos/>} /> */}
             <Route path ="/contact" element = {<Contact/>} />
 
           </Routes>
@@ -33,7 +32,6 @@ function App() {
             <Link to ="/projects"><p>projects</p></Link>
             <Link to = "/resume"><p>resume</p></Link>
             <Link to="/blog"><p>articles</p></Link>
-            {/* <Link to="/photos"><p>photos</p></Link> */}
             <Link to="/contact"><p>contact</p></Link>
         </div>
         
